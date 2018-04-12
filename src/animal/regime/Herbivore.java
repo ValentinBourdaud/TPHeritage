@@ -1,5 +1,15 @@
 package animal.regime;
 
-public abstract class Herbivore {
+public  class Herbivore extends Regime {
+	
+	String regime;
+	
+	public void Regime() {
+		this.regime="Herbivore";
+		
+	}
+	public void Manger() {
+		
+	}
 
 }
