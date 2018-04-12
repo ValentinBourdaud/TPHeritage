@@ -8,10 +8,7 @@ public class Hyene extends Animal {
 
 	Deplacer deplacer;
 	
-	public Hyene (int age, float poids, float taille, String nom) {
-		this.age = 10;
-		this.poids = 30.0f;
-		this.taille =100.0f;
+	public Hyene (int age, float poids, float taille) {
 		this.nom= "Hyene";
 		this.regime = new Carnivore();
 	}
@@ -19,6 +16,7 @@ public class Hyene extends Animal {
 		
 		public void HyeneDeplacer() {
 			this.deplacer = Deplacer.COURIR ;
+			System.out.println("Je cours dans la savane");
 			}
 		
 		

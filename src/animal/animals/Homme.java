@@ -6,17 +6,15 @@ import animal.regime.Omnivore;
 
 public class Homme extends Animal {
 
-	Deplacer deplacer;
+	private Deplacer deplacer;
 	
-	public Homme (int age, float poids, float taille, String nom) {
-		this.age = 25;
-		this.poids = 75.0f;
-		this.taille = 180.0f;
+	public Homme (int age, float poids, float taille) {
 		this.nom = "Homme";
 		this.regime = new Omnivore();
 		
 	}
 	public void HommeDeplacer() {
 		this.deplacer = Deplacer.MARCHER;
+		System.out.println("Je marche, mais il m'arrive de courrir");
 	}
 }

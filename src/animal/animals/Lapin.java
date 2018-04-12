@@ -7,17 +7,15 @@ import animal.regime.Herbivore;
 public class Lapin extends Animal {
 
 	Deplacer deplacer;
-	
-	public Lapin() {
-		this.age = 3;
-		this.poids =10.5f;
-		this.taille =30.0f;
-		this.nom= "Lapin";
+
+	public Lapin(int age, float poids, float taille) {
+		this.nom = "Lapin";
 		this.regime = new Herbivore();
 	}
-	
+
 	public void LapinDeplacer() {
 		this.deplacer = Deplacer.SAUTER;
+		System.out.println("Je saute pour aller de terriers en terriers");
 	}
-	
+
 }
