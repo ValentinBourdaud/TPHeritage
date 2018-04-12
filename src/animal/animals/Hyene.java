@@ -1,5 +1,7 @@
 package animal.animals;
 
-public class Hyene {
+import animal.regime.Carnivore;
+
+public class Hyene extends Carnivore {
 
 }
