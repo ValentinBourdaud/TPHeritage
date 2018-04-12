@@ -6,7 +6,12 @@ import animal.regime.Omnivore;
 
 public class Homme extends Animal {
 
+	
+	//Declaration de l'attribut deplacer
+	
 	private Deplacer deplacer;
+	
+	//Constructeur d'Homme
 	
 	public Homme (int age, float poids, float taille) {
 		

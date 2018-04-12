@@ -4,6 +4,8 @@ import animal.aliment.Aliment;
 
 public  class Omnivore extends Regime {
 		
+	//Constructeur de Omnivore
+
 	public Omnivore() {
 		super("Omnivore");
 	

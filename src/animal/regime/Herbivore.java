@@ -4,6 +4,8 @@ import animal.aliment.Plantes;
 
 public  class Herbivore extends Regime {
 	
+	//Constructeur de Herbivore
+
 	public Herbivore() {
 		super("Herbivore");
 		

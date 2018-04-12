@@ -5,9 +5,13 @@ import animal.Deplacer;
 import animal.regime.Herbivore;
 
 public class Lapin extends Animal {
+	
+	//Declaration de l'attribut deplacer
 
-	Deplacer deplacer;
+	private Deplacer deplacer;
 
+	//Constructeur de lapin
+	
 	public Lapin(int age, float poids, float taille) {
 		this.age=age;
 		this.poids = poids;

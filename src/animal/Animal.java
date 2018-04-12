@@ -4,12 +4,16 @@ import animal.regime.Regime;
 
 public abstract class Animal {
 
+	//Declaration des attributs
+	
 	private Deplacer deplacer;
 	protected int age;
 	protected float poids;
 	protected float taille;
 	protected String nom;
 	protected Regime regime;	
+	
+	//Constructeur d'Animal
 	
 	public Animal() {
 		this.age=0;

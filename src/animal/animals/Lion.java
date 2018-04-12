@@ -6,7 +6,11 @@ import animal.regime.Carnivore;
 
 public class Lion extends Animal {
 	
+	//Declaration de l'attribut deplacer
+	
 	private Deplacer deplacer;
+	
+	//Constructeur de lion
 	
 	public Lion(int age, float poids, float taille) {
 		
