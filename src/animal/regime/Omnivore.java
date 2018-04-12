@@ -1,5 +1,6 @@
 package animal.regime;
 
+import animal.aliment.Aliment;
 
 public  class Omnivore extends Regime {
 		
@@ -7,7 +8,7 @@ public  class Omnivore extends Regime {
 		super("Omnivore");
 	
 	}
-	public void Manger() {
+	public void manger(Aliment aliment) {
 		
 	}
 

@@ -28,4 +28,6 @@ public abstract class Animal {
 	public Regime getRegime() {
 		return this.regime;
 	}
+	
+
 }
